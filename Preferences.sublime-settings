@@ -1,0 +1,17 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"font_face": "JetBrains Mono",
+	"font_size": 12,
+	"trim_trailing_white_space_on_save": "all",
+	"save_on_focus_lost": true,
+	"remember_workspace": false,
+	"highlight_line": true,
+	"shift_tab_unindent": true,
+	"scroll_past_end": false,
+	"ensure_newline_at_eof_on_save": true,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+}
