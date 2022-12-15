@@ -15,4 +15,13 @@
 		"Vintage",
 	],
 	"folder_exclude_patterns": [".vs", "bin", "obj", ".idea", ".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*"],
+	"theme": "auto",
+	"color_scheme": "auto",
+	"caret_style": "smooth",
+	"caret_extra_top": 0,
+	"caret_extra_bottom": 0,
+	"dark_theme": "Default Dark.sublime-theme",
+	"light_theme": "Default.sublime-theme",
+	"dark_color_scheme": "Mariana.sublime-color-scheme",
+	"light_color_scheme": "Breakers.sublime-color-scheme",
 }
