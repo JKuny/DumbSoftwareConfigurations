@@ -1,8 +1,9 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by syntax-specific settings.
 {
-	"font_face": "JetBrains Mono",
-	"font_size": 11,
+	"word_wrap": "true",
+	"font_face": "Fira Code",
+	"font_size": 10,
 	"trim_trailing_white_space_on_save": "all",
 	"save_on_focus_lost": true,
 	"highlight_line": true,
@@ -13,10 +14,10 @@
 	[
 		"Vintage",
 	],
-	"folder_exclude_patterns": [".vs", "bin", "obj", ".idea", ".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*"],
-	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "auto",
-	"caret_style": "smooth",
+	"folder_exclude_patterns": [".idea", "target", ".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*",],
+	"theme": "Default Dark.sublime-theme",
+	"color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
+	"caret_style": "phase",
 	"caret_extra_top": 0,
 	"caret_extra_bottom": 0,
 	"dark_theme": "Default Dark.sublime-theme",
@@ -24,4 +25,5 @@
 	"dark_color_scheme": "Mariana.sublime-color-scheme",
 	"light_color_scheme": "Celeste.sublime-color-scheme",
 	"hot_exit": "only_on_quit",
+	/*"folder_exclude_patterns": [".idea", "target", ".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*"]*/
 }
