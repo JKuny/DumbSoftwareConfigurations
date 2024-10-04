@@ -3,7 +3,7 @@
 {
 	"word_wrap": "true",
 	"font_face": "Fira Code",
-	"font_size": 11,
+	"font_size": 13,
 	"trim_trailing_white_space_on_save": "all",
 	"save_on_focus_lost": true,
 	"highlight_line": true,
@@ -12,18 +12,19 @@
 	"ensure_newline_at_eof_on_save": true,
 	"ignored_packages":
 	[
+		"Formatter",
 		"Vintage",
 	],
-	"folder_exclude_patterns": [".idea", "target", ".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*",],
+	"folder_exclude_patterns": [".idea", "target", ".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*", "bin", "obj"],
 	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "auto",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"caret_style": "phase",
 	"caret_extra_top": 0,
 	"caret_extra_bottom": 0,
 	"dark_theme": "Default Dark.sublime-theme",
 	"light_theme": "Default.sublime-theme",
-	"dark_color_scheme": "Packages/Color Scheme - Rainbow/Rainbow (Dark).tmTheme",
-	"light_color_scheme": "Packages/Color Scheme - Rainbow/Rainbow (Light).tmTheme",
+	"dark_color_scheme": "Packages/Materialize/schemes/Material Spaceblack Oceanic.tmTheme",
+	"light_color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
 	"hot_exit": "only_on_quit",
 	/*"folder_exclude_patterns": [".idea", "target", ".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*"]*/
 	"index_files": true,
