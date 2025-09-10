@@ -1,9 +1,11 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by syntax-specific settings.
 {
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
 	"word_wrap": "true",
-	"font_face": "Inconsolata",
-	"font_size": 15,
+	"font_face": "Cascadia Code",
+	"font_size": 14,
 	"trim_trailing_white_space_on_save": "all",
 	"save_on_focus_lost": true,
 	"highlight_line": true,
@@ -12,12 +14,12 @@
 	"ensure_newline_at_eof_on_save": true,
 	"ignored_packages":
 	[
-		"Formatter",
 		"Vintage",
 	],
-	"folder_exclude_patterns": [".idea", "target", ".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*", "bin", "obj", "node_modules"],
-	"theme": "auto",
-	"color_scheme": "auto",
+	"themed_title_bar": true,
+	"folder_exclude_patterns": [".idea", "target", ".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*", "bin", "obj", "node_modules", ".venv", "-previous-parameters", "cdk.out"],
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Mariana.sublime-color-scheme",
 	"caret_style": "phase",
 	"caret_extra_top": 0,
 	"caret_extra_bottom": 0,
@@ -27,7 +29,7 @@
 	"light_color_scheme": "Breakers.sublime-color-scheme",
 	"hot_exit": "only_on_quit",
 	"index_files": true,
-	"themed_title_bar": false,
+	"close_windows_when_empty": true,
 	"auto_complete_triggers":
 	[
 		{
